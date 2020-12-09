@@ -20,5 +20,5 @@ https://paulo-pamplona-job-application.netlify.app/
 <p>Chrome, Safari, Firefox</p>
 
 ## Possible next steps
-- Save cookie in order to get 'remember email' checkbox totally functional.
+- Save cookies in order to get 'remember email' checkbox totally functional.
 - Set database, possibly Firebase would get this done easily, to record the emails and build the mailing.
