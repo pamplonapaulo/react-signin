@@ -15,3 +15,10 @@ https://paulo-pamplona-job-application.netlify.app/
 
 - SASS
 <p>The project follows the requirement of using SASS but doesn't really take any advantage from it. I have been diving into styled-components, despite having some use of SASS since my certification in San Diego (2017). In a very few months coding with React and styled-components I saw amazing things that I never got done with SASS. Also my favorite professors recommend styled-components. That doesn't mean this developer don't want to use SASS - it would be great to learn with Green's team how to get all the power from SASS.</p>
+
+## Browsers in validation
+<p>Chrome, Safari, Firefox</p>
+
+## Possible next steps
+- Save cookie in order to get 'remember email' checkbox totally functional.
+- Set database, possibli Firebase would get this done easily, to record the emails and build the mailing.
