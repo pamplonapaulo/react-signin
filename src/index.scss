@@ -1,0 +1,42 @@
+@font-face {
+  font-family: 'FakeGotham';
+  src: url('fonts/iCiel-Medium.ttf')  format('truetype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'FakeGotham';
+  src: url('fonts/iCiel-Thin.ttf')  format('truetype');
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: 'FakeGotham';
+  src: url('fonts/Metropolis-ExtraLight.otf')  format('opentype');
+  font-weight: 200;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background: #FAFAFA;
+  height: 100%;
+  margin: 0;
+  font-family: 'FakeGotham', sans-serif;
+  color: #4C494B;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

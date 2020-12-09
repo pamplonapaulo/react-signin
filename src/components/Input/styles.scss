@@ -1,0 +1,78 @@
+.WrapperInput {
+  margin: 0 0 1rem;
+  width: calc(100% - 22px);
+
+  @media only screen and (min-width: 1024px) {
+    width: unset;
+  }
+
+  &:nth-of-type(1) {
+    margin: 0;
+  }
+}
+
+label {
+  color: #4C494B;
+  font-size: 1.2rem;
+  font-weight: 200;
+  margin: 1rem 0;
+  width: 100%;
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+
+  &[datatype='checkbox'] {
+    align-self: center;
+    color: #4C494B;
+    color: rgba(29.8, 28.6, 29.4, 1);
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 200;
+    margin: 0 0 1rem 0.7rem;
+    text-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+    width: auto;
+  }
+}
+
+input {
+  border-color: #f2f2f2;
+  border-radius: 7px;
+  border-style: solid;
+  border-width: 1px;
+  box-shadow: 1px 1px 3px rgba(0,0,0,0.05);
+  height: 2.5rem;
+  margin: 1rem 0;
+  padding: 0 10px;
+  transition: all 0.2s;
+  width: 100%;
+
+  &:focus {
+    outline: none;
+    background: #e6e6e6;
+    border-color: #c0c0c0;
+  }
+
+  &:hover {
+    background: #f2f2f2;
+    border-color: #c0c0c0;
+  }
+
+  &[type='checkbox'] {
+    cursor: pointer;
+    height: 1.1rem;
+    margin-top: 0;
+    width: 1.1rem;
+  }
+
+  &[type='email'] {
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.05);
+    color: black;
+    font-family: 'FakeGotham', sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.6px;
+  }
+}
+
+div[datatype='checkbox'] {
+  flex-direction: row-reverse;
+  display: flex;
+  justify-content: flex-end;
+}

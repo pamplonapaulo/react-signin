@@ -1,0 +1,30 @@
+button {
+  align-self: center;
+  background: transparent;
+  border-color: rgba(29.8, 28.6, 29.4, .1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 7px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.05);
+  color: rgba(29.8, 28.6, 29.4, 1);
+  cursor: pointer;
+  font-family: 'FakeGotham', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 200;
+  margin-top: 2rem;
+  padding: 1rem;
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+  transition: all 0.2s;
+  width: 140px;
+
+  @media only screen and (min-width: 1024px) {
+    align-self: unset;
+    margin-top: 0;
+
+    &:hover {
+      background: #e6e6e6;
+      border-color: #c0c0c0;
+      box-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+    }
+  }
+}
