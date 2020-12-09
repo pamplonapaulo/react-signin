@@ -5,10 +5,10 @@
 h3 {
   font-size: 28px;
   letter-spacing: -1px;
-  white-space: nowrap;
 
   @media only screen and (min-width: 400px) {
     font-size: 37px;
+    white-space: nowrap;
   }
 }
 
