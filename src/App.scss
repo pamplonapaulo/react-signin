@@ -17,4 +17,8 @@
     padding: 65px;
     width: 100%;
   }
+
+  @media only screen and (min-width: 1024px) and (max-height: 629px) {
+    height: auto;
+  }
 }
