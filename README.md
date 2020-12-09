@@ -1,6 +1,6 @@
 # Sign In component
 
-Front End code exercise by Paulo da Silva Pamplona [![Whatsapp Badge](https://img.shields.io/badge/-Whatsapp-4CA143?style=for-the-badge&logo=whatsapp&logoColor=white&link=https://api.whatsapp.com/send?phone=447471341741)](https://api.whatsapp.com/send?phone=447471341741).
+Front End code exercise by Paulo da Silva Pamplona.
 
 ## URL
 https://paulo-pamplona-job-application.netlify.app/
