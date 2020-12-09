@@ -9,13 +9,17 @@ button {
   color: rgba(29.8, 28.6, 29.4, 1);
   cursor: pointer;
   font-family: 'FakeGotham', sans-serif;
-  font-size: 1.2rem;
+  font-size: 16px;
   font-weight: 200;
   margin-top: 2rem;
   padding: 1rem;
   text-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
   transition: all 0.2s;
   width: 140px;
+
+  @media only screen and (min-width: 400px) {
+    font-size: 1.2rem;
+  }
 
   @media only screen and (min-width: 1024px) {
     align-self: unset;
